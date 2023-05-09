@@ -20,7 +20,7 @@ request(url, options, (error, res, body) => {
 ```
 ``` js
 const axios = require('axios')
-const url = 'http://localhost/whatsappversion/index.json'
+const url = 'https://api.whatsversion.com/'
 axios.post(url,{
     headers: {
       Accept: "application/json",
