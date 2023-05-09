@@ -38,7 +38,7 @@ axios.post(url,{
 
 ## Structure of Response
 
-```
+``` json
 {
     "lastverification": "YYYY-MM-DD HH:MM:SS",
     "web": {
