@@ -36,7 +36,7 @@ axios.post(url,{
 });
 ```
 
-## Full structure of response
+## Structure of Response
 
 ```
 {
