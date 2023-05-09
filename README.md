@@ -40,7 +40,7 @@ axios.post(url,{
 
 ```
 {
-    "lastverification": "2023-05-09 07:36:51",
+    "lastverification": "YYYY-MM-DD HH:MM:SS",
     "web": {
         "latest": "<version>",
         "beta": "<version>"
