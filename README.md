@@ -1,9 +1,12 @@
 ## About
 
 
+## Endpoint
+```
+https://api.whatsversion.com/
+```
 
-
-## API Request
+## API Request Examples
 
 ``` js
 const request = require('request');
@@ -18,6 +21,7 @@ request(url, options, (error, res, body) => {
     };
 });
 ```
+
 ``` js
 const axios = require('axios')
 const url = 'https://api.whatsversion.com/'
@@ -30,4 +34,32 @@ axios.post(url,{
   .then(({data}) => {
     console.log(data);
 });
+```
+
+## Full structure of response
+
+```
+{
+    "lastverification": "2023-05-09 07:36:51",
+    "web": {
+        "latest": "<version>",
+        "beta": "<version>"
+    },
+    "windows": {
+        "latest": "<version>",
+        "beta": "<version>"
+    },
+    "macos": {
+        "latest": "<version>",
+        "beta": "<version>"
+    },
+    "android": {
+        "messenger": "<version>",
+        "business": "<version>"
+    },
+    "ios": {
+        "messenger": "<version>",
+        "business": "<version>"
+    }
+}
 ```
