@@ -6,7 +6,7 @@
 https://api.whatsversion.com/
 ```
 
-## API Request Examples
+## Examples
 
 ``` js
 const request = require('request');
